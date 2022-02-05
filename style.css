@@ -9,6 +9,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 50px;
+    width: 100%;
 }
 :root {
     --dark-magenta: hsl(300, 43%, 22%);
@@ -21,7 +22,6 @@ body{
 #main {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    border: 1px red solid;
     align-items: center;
     padding-right: 120px;
 
@@ -56,16 +56,13 @@ ul > li {
     background-color: var(--light-grayish);
     width: 250px;
     height: 30px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 70px;
-    padding-left: 100px;
-    text-align: center;
+    padding: 10px 70px 10px 70px;
     margin-top: 10px;
     border-radius: 10px;
     font-weight: 600;
     font-family: 'Spartan', sans-serif;
     font-size: 15px;
+
 }
 
 .li-2{
@@ -79,16 +76,14 @@ ul > li {
 #proof {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin-top: 100px;
-    border: 1px red solid;
+    margin-top: 60px;
 }
 
 #proof > section {
     background-color: var(--dark-magenta);
     color: var(--white);
-    margin-left: 45px;
-    width: 350px;
-    height: 230px;
+    width: 420px;
+    height: 260px;
     border-radius: 10px;
 
 }
@@ -133,8 +128,22 @@ footer {
 padding: 5px 27px;
 }
 
+.proof-1 {
+    bottom: 20px;
+    position: relative;
+}
+
+.proof-2 {
+    position: relative;
+    bottom: 10px;
+}
+
 .star {
-    width: 20%;
-    display: inline-block;
-    background-color: transparent;
+    background-image: url('images/icon-star.svg');
+    display: flex;
+    background-repeat: repeat-x;
+    width: 33.5%;
+    position: relative;
+    top: 10px;
+    right: 20rem;
 }
