@@ -35,7 +35,6 @@ body {
 
 footer {
   text-align: center;
-  align-items: center;
 }
 
 .column-1 > h1 {
@@ -82,7 +81,7 @@ footer {
    border-radius: 5px;
    padding: 5px;
    margin-left: -30px;
-   }
+  }
 
  .li-2 {
   background-color: var(--light-grayish);
@@ -94,8 +93,7 @@ footer {
   justify-content: space-around;
   border-radius: 5px;
   padding: 5px;
-  margin-left: 10px;
-
+  margin-left: 10px
 }
 
 .li-3 {
@@ -109,7 +107,6 @@ footer {
   border-radius: 5px;
   padding: 5px;
   margin-left: 50px;
-
 }
 
 li > img {
@@ -177,4 +174,67 @@ li > img {
   line-height: 1.6em;
   position: relative;
   bottom: 20px;
+}
+  
+@media (max-width: 375px) {
+  #first-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 300px;
+    margin: 10px;
+
+  }
+  .column-1 > h1 {
+    font-size: 30px;
+    color: var(--dark-magenta);
+    font-weight: 700;
+    text-align: center;
+  }
+  
+  .column-1 > p {
+     font-weight: 400;
+     line-height: 30px;
+     color: var(--grayvish-magenta);
+     margin-top: 5px;
+     text-align: center;
+  }
+  
+  .column-1 {
+     width: 300px;
+  }
+  
+  .column-2 {
+     width: 300px;   
+  }
+
+  #proof {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 375px;
+    margin: 5px;
+  }
+  
+  .proof-1, .proof-2, .proof-3 {
+    margin-top: 10px;
+    width: 250px;
+    padding: 50px;
+  }
+
+  footer {
+    display: block;
+    text-align: start;
+    margin-top: 10px;
+  }
+
+  body {
+    background: url('images/bg-pattern-top-mobile.svg') no-repeat, url('images/bg-pattern-bottom-mobile.svg') bottom no-repeat;
+
+  }
+
+  .li-1, .li-2, .li-3 {
+    margin-left: 0px;
+    width: 250px;
+  }
 }
