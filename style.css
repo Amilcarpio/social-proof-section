@@ -202,37 +202,41 @@ footer {
     align-items: center;
 
   }
+  @media (max-width: 480px) {
   .column-1 > h1 {
     font-size: 40px;
     color: var(--dark-magenta);
     font-weight: 700;
     text-align: center;
-
+    }
   }
-  
+  @media (max-width: 480px) {
   .column-1 > p {
      font-weight: 400;
      line-height: 30px;
      color: var(--grayvish-magenta);
      margin-top: 5px;
      text-align: center;
+    }
   }
-  
+  @media (max-width: 480px) {
   .column-1 {
      width: 350px;
      position: relative;
      right: 7px;  
+    }
   }
-  
+  @media (max-width: 480px) {
   .column-2 {
     display: flex;
     width: 350px;
     position: relative;
     right: 7px;
     bottom: 1px;
-    align-items: center;   
+    align-items: center; 
+    }  
   }
-
+  @media (max-width: 480px) {
   #proof {
     display: grid;
     grid-template-columns: 1fr;
@@ -241,26 +245,29 @@ footer {
     margin: 5px;
     position: relative;
     right: 2px;
+    }
   }
-  
+  @media (max-width: 480px) {
   .proof-1, .proof-2, .proof-3 {
     margin-top: 10px;
     width: 310px;
     height: 200px;
     padding: 20px;
+    }
   }
-
+  @media (max-width: 480px) {
   footer {
     display: block;
     text-align: start;
     margin-top: 10px;
+    }
   }
-
+  @media (max-width: 480px) {
   body {
     background: url('images/bg-pattern-top-mobile.svg') no-repeat, url('images/bg-pattern-bottom-mobile.svg') bottom no-repeat;
-
+    }
   }
-
+  @media (max-width: 480px) {
   .li-1, .li-2, .li-3 {
     display: flex;
     position: relative;
@@ -272,26 +279,28 @@ footer {
     padding: 10px;
     align-items: flex-end;
     justify-content: center;
+    }
   }
-
-  .star-1 {
+  @media (max-width: 480px) {
+    .star-1 {
     position: relative;
     width: 20px;
     z-index: 1;
     left: 60px;
     top: 20px;
-  }
-  .star-2 {
+    }
+    .star-2 {
     position: relative;
     width: 20px;
     z-index: 1;
     left: 60px;
     top: 20px;
-  }
-  .star-3 {
+    }
+    .star-3 {
     position: relative;
     width: 20px;
     z-index: 1;
     left: 60px;
     top: 20px;
+    }
   }
