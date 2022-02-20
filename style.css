@@ -77,9 +77,9 @@ footer {
    width: 400px;
    height: 35px;
    align-items: center;
-   justify-content: space-around;
-   border-radius: 5px;
-   padding: 5px;
+   justify-content: flex-end;
+   border-radius: 6px;
+   padding: 5px 25px 5px 0px;
    margin-left: -30px;
   }
 
@@ -90,9 +90,9 @@ footer {
   width: 400px;
   height: 35px;
   align-items: center;
-  justify-content: space-around;
+  justify-content: flex-end;
   border-radius: 5px;
-  padding: 5px;
+  padding: 5px 25px 5px 0px;
   margin-left: 10px
 }
 
@@ -103,14 +103,30 @@ footer {
   width: 400px;
   height: 35px;
   align-items: center;
-  justify-content: space-around;
+  justify-content: flex-end;
   border-radius: 5px;
-  padding: 5px;
+  padding: 5px 25px 5px 0px;
   margin-left: 50px;
 }
 
-li > img {
-  width: 15px;
+.star-1 {
+ margin: 5px;
+ position: relative;
+ top: 55px;
+ }
+
+ .star-2 {
+  margin: 5px;
+  position: relative;
+  top: 55px;
+  left: 30px;
+  }
+
+ .star-3 {
+  margin: 5px;
+  position: relative;
+  top: 55px;
+  left: 80px;
 }
 
 .proof-1 {
@@ -183,13 +199,15 @@ li > img {
     grid-template-rows: 1fr 1fr;
     width: 300px;
     margin: 10px;
+    align-items: center;
 
   }
   .column-1 > h1 {
-    font-size: 30px;
+    font-size: 40px;
     color: var(--dark-magenta);
     font-weight: 700;
     text-align: center;
+
   }
   
   .column-1 > p {
@@ -201,25 +219,35 @@ li > img {
   }
   
   .column-1 {
-     width: 300px;
+     width: 350px;
+     position: relative;
+     right: 7px;  
   }
   
   .column-2 {
-     width: 300px;   
+    display: flex;
+    width: 350px;
+    position: relative;
+    right: 7px;
+    bottom: 1px;
+    align-items: center;   
   }
 
   #proof {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    width: 375px;
+    width: 350px;
     margin: 5px;
+    position: relative;
+    right: 2px;
   }
   
   .proof-1, .proof-2, .proof-3 {
     margin-top: 10px;
-    width: 250px;
-    padding: 50px;
+    width: 310px;
+    height: 200px;
+    padding: 20px;
   }
 
   footer {
@@ -234,7 +262,36 @@ li > img {
   }
 
   .li-1, .li-2, .li-3 {
-    margin-left: 0px;
-    width: 250px;
+    display: flex;
+    position: relative;
+    right: 34px;
+    margin-left: 10px;
+    margin-top: -30px;
+    width: 300px;
+    height: 65px;
+    padding: 10px;
+    align-items: flex-end;
+    justify-content: center;
   }
-}
+
+  .star-1 {
+    position: relative;
+    width: 20px;
+    z-index: 1;
+    left: 60px;
+    top: 20px;
+  }
+  .star-2 {
+    position: relative;
+    width: 20px;
+    z-index: 1;
+    left: 60px;
+    top: 20px;
+  }
+  .star-3 {
+    position: relative;
+    width: 20px;
+    z-index: 1;
+    left: 60px;
+    top: 20px;
+  }
