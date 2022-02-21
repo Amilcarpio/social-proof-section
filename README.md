@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./images/Screenshot 2022-02-20 at 15-45-23 Frontend Mentor Social proof section.png)
-![](images/Screenshot 2022-02-20 at 16-01-42 Frontend Mentor Social proof section.png)
+!(./images/Screenshot 2022-02-20 at 15-45-23 Frontend Mentor Social proof section.png)
+!(images/Screenshot 2022-02-20 at 16-01-42 Frontend Mentor Social proof section.png)
 
 ### Links
 
